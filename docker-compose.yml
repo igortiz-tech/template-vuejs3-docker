@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    image: node:14-buster
+    volumes:
+      - ./:/app
+    ports:
+      - "8091:8091"
+    working_dir: /app
+    command: bash -c "npm install && npm start"
+    restart: always
+    network_mode: bridge
+
+
