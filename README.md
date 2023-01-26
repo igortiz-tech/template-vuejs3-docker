@@ -38,3 +38,16 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+## Project Setup - Docker
+
+### run 
+
+```sh
+npm docker-compose up -d
+```
+
+### open
+
+http://localhost:8091/
